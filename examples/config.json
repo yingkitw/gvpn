@@ -1,0 +1,19 @@
+{
+  "listen_addr": ":1194",
+  "vpn_network": "10.8.0.0/24",
+  "mtu": 1500,
+  "debug": true,
+  "max_clients": 100,
+  "keepalive_interval": 25,
+  "token_expiry": "24h",
+  "allowed_networks": [
+    "10.8.0.0/24"
+  ],
+  "logging": {
+    "level": "info",
+    "file": "",
+    "max_size": 100,
+    "max_backups": 3,
+    "max_age": 28
+  }
+}

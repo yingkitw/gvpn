@@ -1,0 +1,17 @@
+*.log
+bin/
+vendor/
+.gvpn/
+*.pem
+*.key
+*.crt
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+dist/
+build/
+coverage.out
+coverage.html
